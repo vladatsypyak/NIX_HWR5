@@ -1,13 +1,129 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form {
+max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid #d9dae4;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #ececf9;
+    margin-top: 20px;
+
+}
+
+.a {
+    box-sizing: border-box;
+    display: block;
+    text-decoration: none;
+    background-color: #806cd5;
+    color: white;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+.a:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.links_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_wrap {
+    margin-bottom: 30px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #806cd5;
+    padding: 5px;
+    width: 90%;
+}
+
+.gender_wrap input {
+    width: fit-content;
+}
+
+h2 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.label {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.first_step {
+    margin-left: auto;
+}
+
+.input_radio_wrap input {
+    width: fit-content;
+
+}
+
+.dark {
+    width: 100%;
+    height: 100vh;
+    background-color: #1c1139;
+}
+
+.dark {
+    color: white;
+}
+
+.dark input {
+    background: none;
+    color: white;
+}
+
+.dark .form {
+    box-shadow: 3px 3px 3px #2d2d45;
+    border: 1px solid #806cd5;
+}
+
+.theme_btn {
+    margin-left: auto;
+    width: 100px;
+    display: block;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.theme_btn {
+    background-color: #806cd5;
+    color: white;
+    border: none;
+}
+
+.theme_btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }

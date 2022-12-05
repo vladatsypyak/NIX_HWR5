@@ -20,7 +20,6 @@ let data = {
                 data[key] = arrOfData[i][key]
             }
         }
-        console.log(data)
     }
 }
 export default data
